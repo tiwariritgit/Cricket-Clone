@@ -1,0 +1,89 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(45deg,
+    rgba(198, 99, 98, 0.75));
+    /* rgba(75, 128, 181, 0.75)), url('/public/images/typing.jpg'); */
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+   /* background-color: chartreuse; */
+} 
+
+.loginLeft, .loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginLogo{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(59, 59, 198);
+    margin-bottom: 10px;
+}
+.loginDesc{
+    font-size: 24px;
+}
+
+.loginRightBox{
+    height: 330px;
+    width: 380px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.loginInput{
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.loginInput:focus{
+    outline: none;
+}
+.loginbutton{
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: #4cad50;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.forgotPassword{
+    text-align: center;
+}
+.createRightAccount{
+    text-align: center;
+}
+.createAccount{
+    color: #29962c;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: #4cad50;
+    color: black;
+    width: 150px;
+    height: 26px;
+}
+
+.errorBox {
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* background-color: #94f197; */
+    background: linear-gradient(45deg,
+    rgba(198, 99, 98, 0.75));
+    /* rgba(75, 128, 181, 0.75)), url('/public/images/typing.jpg'); */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+   /* background-color: chartreuse; */
+} 
+
+.loginbutton{
+    background-color:rgb(163, 174, 6) ;
+}
+
+.loginLeft, .loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginLogo{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+.loginDesc{
+    font-size: 24px;
+    color: white;
+}
+.loginRightBox{
+    height: 400px;
+    width: 380px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.loginButtonRegister{
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(67, 67, 213);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    margin-left: 75px;
+    margin-top: 12px;
+}
